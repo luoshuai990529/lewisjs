@@ -1,0 +1,44 @@
+.lewisjs_deu18_button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  /* no */
+  border-radius: 5px;
+  font-size: 12px;
+}
+.lewisjs_t5arr_button:active {
+  outline: 0;
+  background-color: #dddddd;
+}
+.lewisjs_n0xlv_button:focus {
+  outline: 0;
+}
+.lewisjs_qbi9i_button.lewisjs_stqu0_primary {
+  color: #fff;
+  background-color: #108ee9;
+  border: 1px solid #108ee9;
+  /* no */
+}
+.lewisjs_jmruk_button.lewisjs_e5jup_primary:active {
+  color: hsla(0, 0%, 100%, 0.3);
+  background-color: #0e80d2;
+}
+.lewisjs_ic41a_button.lewisjs_7ijyz_warning {
+  color: #fff;
+  background-color: #e94f4f;
+  border: 1px solid #e94f4f;
+  /* no */
+}
+.lewisjs_cd1dg_button.lewisjs_uqiae_warning:active {
+  color: hsla(0, 0%, 100%, 0.3);
+  background-color: #d24747;
+}
+.lewisjs_lxega_disabled {
+  color: #6f6f6f;
+}
+

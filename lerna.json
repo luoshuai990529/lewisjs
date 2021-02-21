@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "packages/@lewisjs/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent"
+}

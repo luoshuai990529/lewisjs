@@ -1,0 +1,40 @@
+.button{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: nowrap;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ddd; /* no */
+    border-radius: 5px;
+    font-size: 12px;
+    &:active{
+        outline:0;
+        background-color: #dddddd;
+    }
+    &:focus{
+        outline:0;
+    }
+}
+.button.primary{
+    color: #fff;
+    background-color: #108ee9;
+    border: 1px solid #108ee9; /* no */
+    &:active{
+        color: hsla(0,0%,100%,.3);
+        background-color: #0e80d2;
+    }
+}
+.button.warning{
+    color: #fff;
+    background-color: #e94f4f;
+    border: 1px solid #e94f4f; /* no */
+    &:active{
+        color: hsla(0,0%,100%,.3);
+        background-color: #d24747;
+    }
+}
+.disabled{
+    color: #6f6f6f;
+}

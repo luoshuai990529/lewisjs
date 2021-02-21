@@ -1,0 +1,35 @@
+{
+  "name": "@lewisjs/button",
+  "version": "1.0.0",
+  "description": "基础按钮组件",
+  "author": "luoshuai <1029113525@qq.com>",
+  "homepage": "https://github.com/luoshuai990529/learn-lerna#readme",
+  "license": "ISC",
+  "main": "lib/button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "build",
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoshuai990529/learn-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/luoshuai990529/learn-lerna/issues"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

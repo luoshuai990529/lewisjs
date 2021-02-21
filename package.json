@@ -1,0 +1,67 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/@lewisjs/*"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@storybook/addon-backgrounds": "^5.3.17",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-queryparams": "^5.3.18",
+    "@storybook/addon-storysource": "^5.3.17",
+    "@storybook/addon-viewport": "^5.3.17",
+    "@storybook/react": "^6.1.18",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "autoprefixer": "8.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "express": "^4.17.1",
+    "husky": "^5.0.9",
+    "inquirer": "^7.3.3",
+    "lerna": "^3.22.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.11.1",
+    "webpack-dev-middleware": "^4.0.2"
+  },
+  "resolutions": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "create": "node scripts/create.js",
+    "bootstrap": "lerna bootstrap",
+    "release": "lerna updated && lerna publish",
+    "story": "start-storybook -p 9999",
+    "lint": "eslint packages/**/*.js"
+  },
+  "dependencies": {
+    "@plutojs/postcss-px2rem": "^1.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "husky": {
+    "hooks": {}
+  }
+}
